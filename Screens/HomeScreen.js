@@ -47,7 +47,7 @@ componentDidMount(){
 
 
         return(
-            <View style={{flex: 1, paddingTop:50, paddingLeft:5}}>
+            <View style={{flex: 3, paddingTop:30, paddingLeft:2}}>
                 <Text>Pokemon</Text>
 
                 <Image
