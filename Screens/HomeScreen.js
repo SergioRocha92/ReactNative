@@ -12,7 +12,7 @@ constructor(props){
     this.state = {
         loading: false,
         pokemon: [],
-        url: 'https://pokeapi.co/api/v2/pokemon/'
+        url: 'https://pokeapi.co/api/v2/pokemon/?limit=20&offset=20'
 
     }
 
