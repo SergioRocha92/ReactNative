@@ -43,16 +43,7 @@ componentDidMount(){
 
 
     render(){
-        if(this.state.loading){
-
-            return(
-                <View style={styles.container}>
-                    <Text>Descargando Pokemon</Text>
-                    <StatusBar style="auto" />
-                </View>
-            );
-
-        }
+        
 
 
         return(
@@ -71,15 +62,23 @@ componentDidMount(){
                 renderItem={
                     ({item}) => <Text> { item.name } </Text>
                     
-            
+
+
+
+                
                 }
                 keyExtractor={(item, index) => index.toString()  }
 
                 
+
+
                 />
                
             </View>
         );
+
+
+
         
     }
     
@@ -101,3 +100,5 @@ const styles = StyleSheet.create({
   }
   
   ); 
+
+  
